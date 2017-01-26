@@ -25,7 +25,7 @@ Citizen.CreateThread(function() -- create a thread
 
       local myPed = PlayerPedId() -- get our ped identifier
       local animation = 'idle' -- animation to play
-      local flags = 16 -- only play the animation on the upper body
+      local flags = 49 -- only play the animation on the upper body
 
       -- play the animation
       TaskPlayAnim(myPed, 'mp_arresting', animation, 8.0, -8, -1, flags, 0, 0, 0, 0)
